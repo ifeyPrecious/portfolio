@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  section{
+  background: rgb(1, 1, 41);
+   }
+   /* NAVBAR */
+   .brder{
+    border-bottom: 1px solid blue;
+   }
+   .myLogo{
+    color:blue
+   }
+  
+   /* IMAGE */
+  div img{
+    height: 420px;
+    width: 100%;
+  }
+  
+  /* INTRODUCTION */
+   .intro{
+    color: white;
+    /* box-shadow: 2px 3px 20px rgba(255, 255,255, 0.6); */
+    background: transparent;
+    /* height: 480px; */
+    padding-top: 20px;
+    text-align: center;
+  
+  }
+  .intro h3{
+    color: blue;
+  }
+   
+   
+  /* buttonBOX */
+   .btn-box {
+      display: flex;
+    justify-content: space-between; 
+    width: 345px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+     
+    
+   }
+  
+   
+   .btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    text-decoration: none;
+    background-color:blue;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    /* font-weight: 600px; */
+    letter-spacing: 1px;
+    height: 100%;
+    margin-top: 10px;
+    transition: .8s; 
+  }
+  .btn-box a:hover{
+  background: rgb(16, 16, 73);  
+  border:none;
+  }
+   
+  
+  /* SEND ME MESSSAGE */
+  
+  
+  .brd{
+    border-left: 1px solid grey;
+    border-right: 1px solid gray;
+    
+  }
+  hr{
+    border:1px solid blue;
+    width: 60px;
+    display: inline-block;
+    
+  }
+  .blue{
+    border:2px solid blue;
+    border-radius:2px;
+  }
+  hr:hover{
+    background-color: greenyellow;
+  }
+  
+  .spn {
+    color:blue;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin-left:20px;
+  }
+  .a:hover {
+    color: #c6c6dc;
+    transition: 1s;
+  }
+  .c:hover {
+    color: rgb(198, 198, 220);
+    transition: 1s;
+  }
+  .b:hover {
+    color: rgb(198, 198, 220);
+    transition: 1s;
+  }
+  .d:hover {
+    color: rgb(198, 198, 220);
+    transition: 1s;
+  }
+  .spn a:hover::before {
+    width: 100%;
+  
+  }
+  .abt-img{
+    background:rgb(9, 9, 32);
+    color: white;
+  }
+  
+  /* .project-container{
+    background: rgb(21, 21, 44);
+    color: white;
+  } */
+  
+  .dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(223, 223, 246);
+    border-radius: 50% !important;
+    color:rgb(223, 223, 246);
+    
+  }
+  hr{
+    margin-top: -12px;
+    width:110px;
+  }
+  .circle{width: 100px;
+    height: 100px;
+    background-color:skyblue;
+    border-radius: 50% ;
+    color: white;
+    position: absolute;
+     top:-13%;  
+    right:44%;
+    border:3px solid #fff;
+  
+  }
+  
+  .body{
+    background: linear-gradient(rgb(169, 229, 232),rgb(36, 152, 198) ); 
+  } 
+  
+  a{
+    text-decoration: none !important;
+  
+  }
+  .resume{
+    height: 60px;
+  }
+   .btn-color{
+    background: rgb(30, 30, 137);
+    color:#fff;
+   }
+    
+  
+  
+  
+  
+  @media (max-width:750px) {
+    .margin{
+    margin-top: 10px;  
+    }
+  
+  }
+  .navbar{
+    background-color: rgba(0,0,0,0.10) !important;
+  }
